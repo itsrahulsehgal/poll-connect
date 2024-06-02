@@ -3,12 +3,13 @@ import 'firebase/auth';
 import 'firebase/firestore';
 
 const config = {
-  apiKey: "AIzaSyB5ubgoTh9Vf_woFrpk-iQnvkvk2sGWEOI",
-  authDomain: "pollitup-auth.firebaseapp.com",
-  projectId: "pollitup-auth",
-  storageBucket: "pollitup-auth.appspot.com",
-  messagingSenderId: "335337605657",
-  appId: "1:335337605657:web:c1475b4537c10f1649f888"
+  apiKey: "AIzaSyA98qoYyMdKCnpjcUpmYeNhrR2jW9qMTYM",
+  authDomain: "poll-connect.firebaseapp.com",
+  projectId: "poll-connect",
+  storageBucket: "poll-connect.appspot.com",
+  messagingSenderId: "269776002955",
+  appId: "1:269776002955:web:a52713915e272fe70b598e",
+  measurementId: "G-6HDGQ49FNG"
 };
 
 export default function initFirebase() {

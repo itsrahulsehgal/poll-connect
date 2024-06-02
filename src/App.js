@@ -7,7 +7,7 @@ import "animate.css/animate.compat.css";
 
 // Components
 import Navbar from "./components/navbar";
-import Footer from "./components/footer";
+// import Footer from "./components/footer";
 
 // Pages
 import { TransitionGroup, CSSTransition } from "react-transition-group";
@@ -85,7 +85,6 @@ function App() {
           />
         </div>
       </Box>
-      <Footer />
     </Router>
   );
 }
