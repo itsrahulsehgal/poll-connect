@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap");
+
+:root {
+  --blue: #40669c;
+  --light-blue: #c6e7fc;
+  --dark-blue: #2a4365;
+  --darker-blue: #062653;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.deleteIcon:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-exit .fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms ease-out;
+}
+
+.content {
+  position: absolute;
+  top: 95px;
+  padding-bottom: 77.5px;
+  left: 0;
+  right: 0;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  border: 2.5px solid lightblue;
+}
+
+.profile-pic:hover {
+  cursor: pointer;
+}
+
+/* footer{
+  height: 100px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+} */
+
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+::-webkit-scrollbar-track {
+  margin-top: 18px;
+  border-radius: 100vw;
+  background: var(--light-blue);
+}
+
+::-webkit-scrollbar-thumb {
+  border: 3px solid var(--light-blue);
+  border-radius: 100vw;
+  background: var(--dark-blue);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue);
+}
+
+@supports (scrollbar-color: red blue) {
+  * {
+    scrollbar-color: var(--darker-blue) var(--light-blue);
+  }
+}
+
+@media (max-width: 768px) {
+  ::-webkit-scrollbar-track {
+    margin-top: 0;
+  }
+}
+.filter-dropdown{
+background-color:#3182ce;
+border-color: #2a4365;
+color:white;
+text-align: center;
+border-radius: 3px;
+margin-right: 5px;
+height:40px;
+}
+
+option:hover{
+  background-color:#c6e7fc
+}
+search-feature{
+  margin-bottom: 50px ;
+}
+.searchFeature{
+  height:100px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error{
+  color: red;
+  font-size: 15px;
+  text-align: left;
+  margin: 0 !important;
+}
