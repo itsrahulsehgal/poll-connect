@@ -88,22 +88,6 @@ export default function HomePage(){
                 <Button colorScheme="blue" variant="solid" my={4} leftIcon={<DownloadIcon />}>Download for mobile/desktop</Button>
             </Container> */}
             <Center>
-            <Container maxW="container.xl" p={8}  bg={containerBgColor}  mt={8} mb={8} borderRadius={'lg'} width={'90%'} borderWidth="2px" borderColor="gray.400">
-            <Center>   
-             <Heading as="h2" size="xl" my={2}
-                >Open source!</Heading> 
-            </Center>
-            <Center>
-                <Text fontSize="lg">
-                Our source code is open to the public.
-                </Text>
-            </Center>   
-            <Center>
-                <ChakraLink href="https://github.com/agamjotsingh18/pollitup.github.io" target="_blank" style={{ textDecoration: 'none' }}>
-                    <Button colorScheme="gray" variant="solid" my={4} leftIcon={<FontAwesomeIcon icon={faGithub}/>}>GitHub repo</Button>
-                </ChakraLink>
-            </Center>
-            </Container>
             </Center>
         </>
     );
